@@ -1,0 +1,1 @@
+javascript:(() => { if (!/^https:\/\/www\.e-typing\.ne\.jp\/.*\/?roma\/variety\/.+\.asp/.test(window.location.href)) return alert('e-typingのお題選択画面を開いてから実行してね'); document.querySelector('.pp_close')?.click(); let l = document.querySelectorAll('.typing_contents a'); setTimeout(() => l[Math.floor(Math.random() * l.length)].click(), 1000); })();
